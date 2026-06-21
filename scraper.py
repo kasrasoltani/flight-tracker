@@ -10,6 +10,7 @@ and search_alibaba() is a placeholder -- see README.md Part A for how
 to fill it in using `playwright codegen` (no guessing needed).
 """
 
+import argparse
 import csv
 import os
 from datetime import datetime, date, timedelta, timezone
@@ -166,6 +167,14 @@ def send_telegram(message: str):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--same-day", action="store_true",
+                        help="Only check today's flights (runs every 30 min on departure day)")
+    args = parser.parse_args()
+
+    target_dates = [date.today()] if args.same_day else TARGET_DATES
+    drop_threshold = 0.02 if args.same_day else DROP_ALERT_THRESHOLD  # tighter on same day
+
     ensure_csv()
     best_known = load_best_known_prices()
     now = datetime.now(timezone.utc).isoformat()
@@ -178,7 +187,7 @@ def main():
         page = browser.new_page()
 
         for origin, dest_code, _label in ROUTES:
-            for flight_date in TARGET_DATES:
+            for flight_date in target_dates:
                 for site, search_fn in SEARCHERS.items():
                     try:
                         results = search_fn(page, origin, dest_code, flight_date)
@@ -220,9 +229,10 @@ def main():
 
                         key = (site, origin, dest_code, flight_date.isoformat())
                         prev_best = best_known.get(key)
-                        if prev_best is not None and price <= prev_best * (1 - DROP_ALERT_THRESHOLD):
+                        if prev_best is not None and price <= prev_best * (1 - drop_threshold):
+                            prefix = "🚨 <b>SAME-DAY DROP</b>" if args.same_day else "📉 <b>New low spotted!</b>"
                             msg = (
-                                f"📉 <b>New low spotted!</b>\n"
+                                f"{prefix}\n"
                                 f"✈️ {origin} → {dest_code}  •  {flight_date}\n"
                                 f"💰 <b>{price:,.0f} {row['currency']}</b> ({r.get('airline','')})"
                             )

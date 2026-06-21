@@ -1,0 +1,39 @@
+name: Same-Day Price Watch
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # every 30 minutes, all day
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  same-day-watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Run same-day price check
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scraper.py --same-day
+
+      - name: Commit updated CSV
+        run: |
+          git config user.name "price-bot"
+          git config user.email "price-bot@users.noreply.github.com"
+          git pull --rebase origin main
+          git add data/prices.csv
+          git diff --staged --quiet || git commit -m "Same-day check $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
