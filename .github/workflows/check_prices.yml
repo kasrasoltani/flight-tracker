@@ -1,0 +1,48 @@
+name: Check Tabriz Flight Prices
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # hourly price check (best effort -- can run a few minutes late)
+    - cron: "0 6 * * *"   # once-daily digest, ~06:00 UTC = ~9am Istanbul/Tehran
+  workflow_dispatch: {}    # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write   # needed so the job can commit the updated CSV
+
+jobs:
+  check-prices:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Run price check
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scraper.py
+
+      - name: Commit updated CSV
+        run: |
+          git config user.name "price-bot"
+          git config user.email "price-bot@users.noreply.github.com"
+          git add data/prices.csv
+          git diff --staged --quiet || git commit -m "Price check $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - name: Send daily digest
+        # Fires on the 6am schedule, AND whenever you click "Run workflow"
+        # manually -- so you get a digest immediately when testing.
+        if: github.event.schedule == '0 6 * * *' || github.event_name == 'workflow_dispatch'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python digest.py
