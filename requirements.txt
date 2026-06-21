@@ -2,3 +2,4 @@ playwright>=1.44
 requests>=2.31
 pandas>=2.2
 matplotlib>=3.8
+jdatetime>=4.1
