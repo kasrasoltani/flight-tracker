@@ -13,6 +13,7 @@ to fill it in using `playwright codegen` (no guessing needed).
 import argparse
 import csv
 import os
+from collections import defaultdict
 from datetime import datetime, date, timedelta, timezone
 from pathlib import Path
 
@@ -61,6 +62,7 @@ TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 
 # Alert if a new price is at least this much below the best seen so far.
 DROP_ALERT_THRESHOLD = 0.05  # 5%
+MIN_CHECKS_FOR_BUY_SIGNAL = 6  # need ~6 hours of data before firing buy signals
 
 
 # ---------------------------------------------------------------------------
@@ -150,6 +152,77 @@ def append_rows(rows: list[dict]):
         writer = csv.DictWriter(f, fieldnames=CSV_HEADERS)
         for row in rows:
             writer.writerow(row)
+
+
+def load_price_history() -> dict:
+    """Returns {(site, origin, dest, flight_date): [price, price, ...]} in timestamp order."""
+    if not CSV_PATH.exists():
+        return {}
+    ts_prices = defaultdict(dict)  # key -> {timestamp: min_price_at_that_check}
+    with open(CSV_PATH, newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            try:
+                price = float(row["price"])
+            except (KeyError, ValueError, TypeError):
+                continue
+            key = (row["site"], row["origin"], row["destination"], row["flight_date"])
+            ts = row["timestamp_utc"]
+            if ts not in ts_prices[key] or price < ts_prices[key][ts]:
+                ts_prices[key][ts] = price
+    return {k: [p for _, p in sorted(v.items())] for k, v in ts_prices.items()}
+
+
+def check_buy_signals(new_rows: list[dict], history: dict) -> list[str]:
+    signals = []
+    seen = set()
+    for row in new_rows:
+        if not row.get("price"):
+            continue
+        key = (row["site"], row["origin"], row["destination"], row["flight_date"])
+        if key in seen:
+            continue
+        seen.add(key)
+
+        prices = history.get(key, [])
+        if len(prices) < MIN_CHECKS_FOR_BUY_SIGNAL:
+            continue
+
+        current = prices[-1]
+        low = min(prices)
+        last_6 = prices[-6:]
+
+        flat = (max(last_6) - min(last_6)) / (sum(last_6) / len(last_6)) < 0.01
+        prev = prices[-2]
+        ticked_up = current > prev * 1.02 and prev <= low * 1.05
+
+        try:
+            days_out = (date.fromisoformat(row["flight_date"]) - date.today()).days
+        except (ValueError, TypeError):
+            continue
+        urgency = days_out <= 3 and current <= low * 1.10
+
+        if not (flat or ticked_up or urgency):
+            continue
+
+        reasons = []
+        if flat:
+            reasons.append("flat 6+ hours — likely at floor")
+        if ticked_up:
+            reasons.append(f"ticked back up — floor was {prev:,.0f}")
+        if urgency:
+            reasons.append(f"only {days_out} day(s) to departure, near historical low")
+
+        origin, dest, fdate = row["origin"], row["destination"], row["flight_date"]
+        currency = row.get("currency", "IRT")
+        airline = row.get("airline", "")
+        signals.append(
+            f"🛒 <b>BUY SIGNAL — {origin} → {dest}, {fdate}</b>\n"
+            f"💰 <b>{current:,.0f} {currency}</b>" + (f" ({airline})" if airline else "") + "\n"
+            f"📊 {' | '.join(reasons)}\n"
+            f"🎯 Historical low: {low:,.0f} {currency}\n"
+            f"⚠️ Signal, not a guarantee."
+        )
+    return signals
 
 
 def send_telegram(message: str):
@@ -254,6 +327,10 @@ def main():
 
     for a in alerts:
         send_telegram(a)
+
+    history = load_price_history()
+    for msg in check_buy_signals(new_rows, history):
+        send_telegram(msg)
 
     priced_rows = [r for r in new_rows if r["price"] != ""]
     if not priced_rows and errors:
