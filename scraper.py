@@ -84,7 +84,7 @@ def search_pateh(page, origin: str, dest_code: str, flight_date: date) -> list[d
     tree to pair them -- simpler, and good enough for personal use.
     """
     jalali_date = jdatetime.date.fromgregorian(date=flight_date).strftime("%Y-%m-%d")
-    url = f"https://www.pateh.com/flight/int-{origin.lower()}-{dest_code.lower()}/?departing={jalali_date}"
+    url = f"https://www.pateh.com/flight/int-{origin.lower()}all-{dest_code.lower()}all/?departing={jalali_date}"
     page.goto(url, wait_until="domcontentloaded")
 
     try:
