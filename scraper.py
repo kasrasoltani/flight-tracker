@@ -52,6 +52,7 @@ def build_target_dates() -> list[date]:
 TARGET_DATES = build_target_dates()
 
 CSV_PATH = Path(__file__).parent / "data" / "prices.csv"
+BUY_SIGNALS_PATH = Path(__file__).parent / "data" / "buy_signals_sent.json"
 CSV_HEADERS = [
     "timestamp_utc", "site", "origin", "destination", "flight_date",
     "airline", "price", "currency", "notes",
@@ -172,9 +173,23 @@ def load_price_history() -> dict:
     return {k: [p for _, p in sorted(v.items())] for k, v in ts_prices.items()}
 
 
+def load_sent_signals() -> dict:
+    if BUY_SIGNALS_PATH.exists():
+        import json
+        return json.loads(BUY_SIGNALS_PATH.read_text())
+    return {}
+
+
+def save_sent_signals(sent: dict):
+    import json
+    BUY_SIGNALS_PATH.write_text(json.dumps(sent, indent=2))
+
+
 def check_buy_signals(new_rows: list[dict], history: dict) -> list[str]:
     signals = []
     seen = set()
+    sent = load_sent_signals()
+    new_sent = dict(sent)
     for row in new_rows:
         if not row.get("price"):
             continue
@@ -204,6 +219,11 @@ def check_buy_signals(new_rows: list[dict], history: dict) -> list[str]:
         if not (flat or ticked_up or urgency):
             continue
 
+        # Only fire once per (route, date, price) — don't spam same signal every hour
+        sent_key = f"{key[0]}|{key[1]}|{key[2]}|{key[3]}"
+        if new_sent.get(sent_key) == current:
+            continue
+
         reasons = []
         if flat:
             reasons.append("flat 6+ hours — likely at floor")
@@ -222,6 +242,9 @@ def check_buy_signals(new_rows: list[dict], history: dict) -> list[str]:
             f"🎯 Historical low: {low:,.0f} {currency}\n"
             f"⚠️ Signal, not a guarantee."
         )
+        new_sent[sent_key] = current
+
+    save_sent_signals(new_sent)
     return signals
 
 
