@@ -85,6 +85,16 @@ def main():
 
     lines = ["📊 <b>Flight price digest</b>", f"🗂 {len(df)} price points so far", ""]
 
+    next5 = df[df["flight_date"] <= today + pd.Timedelta(days=5)]
+    if not next5.empty:
+        lines.append("🚀 <b>Cheapest in next 5 days:</b>")
+        latest_ts5 = next5.groupby(["site", "route", "flight_date"])["timestamp_utc"].transform("max")
+        latest5 = next5[next5["timestamp_utc"] == latest_ts5]
+        for route, grp in latest5.groupby("route"):
+            best = grp.loc[grp["price"].idxmin()]
+            lines.append(f"• {route}: <b>{best['price']:,.0f} {best['currency']}</b> on {best['flight_date'].date()} ({best['airline']})")
+        lines.append("")
+
     # Latest snapshot per (site, route, flight_date) -- ALL flights at the
     # most recent check time, not just one arbitrary row. Without this,
     # two flights logged with the same timestamp (e.g. two airlines found

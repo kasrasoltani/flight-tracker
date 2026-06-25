@@ -82,7 +82,17 @@ def build_digest() -> str:
         return "No flights found in the next 20 days."
     df["route"] = df["origin"] + " → " + df["destination"]
 
+    # Next 5 days: cheapest per route
+    next5 = df[df["flight_date"] <= today + pd.Timedelta(days=5)]
     lines = ["📊 <b>Flight price digest</b>", f"🗂 {len(df)} price points so far", ""]
+    if not next5.empty:
+        lines.append("🚀 <b>Cheapest in next 5 days:</b>")
+        latest_ts5 = next5.groupby(["site", "route", "flight_date"])["timestamp_utc"].transform("max")
+        latest5 = next5[next5["timestamp_utc"] == latest_ts5]
+        for route, grp in latest5.groupby("route"):
+            best = grp.loc[grp["price"].idxmin()]
+            lines.append(f"• {route}: <b>{best['price']:,.0f} {best['currency']}</b> on {best['flight_date'].date()} ({best['airline']})")
+        lines.append("")
 
     latest_ts = df.groupby(["site", "route", "flight_date"])["timestamp_utc"].transform("max")
     latest = df[df["timestamp_utc"] == latest_ts]
