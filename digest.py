@@ -76,6 +76,11 @@ def main():
         return
 
     df["flight_date"] = pd.to_datetime(df["flight_date"])
+    today = pd.Timestamp.now().normalize()
+    df = df[(df["flight_date"] >= today) & (df["flight_date"] <= today + pd.Timedelta(days=20))]
+    if df.empty:
+        send_telegram("📊 No flights found in the next 20 days.")
+        return
     df["route"] = df["origin"] + " → " + df["destination"]
 
     lines = ["📊 <b>Flight price digest</b>", f"🗂 {len(df)} price points so far", ""]
