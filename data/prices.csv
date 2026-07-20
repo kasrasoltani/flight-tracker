@@ -103088,3 +103088,7 @@ timestamp_utc,site,origin,destination,flight_date,airline,price,currency,notes
 2026-07-20T18:54:47.324322+00:00,pateh.com,IST,OMH,2026-07-20,,,,no_results
 2026-07-20T18:54:47.324322+00:00,pateh.com,IST,IKA,2026-07-20,,,,no_results
 2026-07-20T18:54:47.324322+00:00,pateh.com,ADB,IKA,2026-07-20,,,,no_results
+2026-07-20T20:23:45.181869+00:00,pateh.com,IST,TBZ,2026-07-20,,,,no_results
+2026-07-20T20:23:45.181869+00:00,pateh.com,IST,OMH,2026-07-20,,,,no_results
+2026-07-20T20:23:45.181869+00:00,pateh.com,IST,IKA,2026-07-20,,,,no_results
+2026-07-20T20:23:45.181869+00:00,pateh.com,ADB,IKA,2026-07-20,,,,no_results
