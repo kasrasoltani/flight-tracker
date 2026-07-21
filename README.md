@@ -5,7 +5,7 @@ and sends you a Telegram message with the cheapest option, trends, and
 which route/day looks best. Once set up, it runs in the cloud -- your
 computer can be off.
 
-Routes tracked: IST->TBZ, IST->OMH, IST->IKA, ADB->IKA.
+Routes tracked: TBZ->IST, OMH->IST, IKA->IST, IKA->ADB.
 
 Do the steps in order. Each grey box is something to paste into Terminal.
 
@@ -30,7 +30,7 @@ playwright install chromium
 2. Run:
 
 ```
-playwright codegen https://www.pateh.com/flight/int-ist-tbz/
+playwright codegen https://www.pateh.com/flight/int-tbz-ist/
 ```
 
 3. Two windows pop up. In the **browser window**: pick any date a few
@@ -42,7 +42,7 @@ playwright codegen https://www.pateh.com/flight/int-ist-tbz/
 6. Close both windows, then repeat steps 2-5 for:
 
 ```
-playwright codegen https://www.alibaba.ir/international/IST-TBZ
+playwright codegen https://www.alibaba.ir/international/TBZ-IST
 ```
 
 You only need to do this once per site, ever.

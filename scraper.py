@@ -1,5 +1,5 @@
 """
-Flight price tracker -- IST/ADB to TBZ/OMH/IKA.
+Flight price tracker -- Iran to Turkey routes.
 
 Logs every observation to data/prices.csv, and sends a Telegram alert
 when a new low price shows up for a tracked route+date.
@@ -27,26 +27,19 @@ import requests
 
 # (origin, destination, label) in priority order.
 ROUTES = [
-    ("IST", "TBZ", "priority"),
-    ("IST", "OMH", "backup"),
-    ("IST", "IKA", "backup, least preferred"),
-    ("ADB", "IKA", "Izmir direct -- easier for you"),
+    ("TBZ", "IST", "Tabriz to Istanbul"),
+    ("OMH", "IST", "Urmia to Istanbul"),
+    ("IKA", "IST", "Tehran to Istanbul"),
+    ("IKA", "ADB", "Tehran to Izmir"),
 ]
 
-# Checks every single day starting from today, through this date.
-# Recalculated fresh each run, so it automatically drops dates that
-# have already passed -- no need to maintain a list by hand.
-LAST_DATE_TO_CHECK = date(2026, 7, 20)
+# Checks every single day from today through this many days out.
+CHECK_DAYS_AHEAD = 20
 
 
 def build_target_dates() -> list[date]:
     today = date.today()
-    dates = []
-    d = today
-    while d <= LAST_DATE_TO_CHECK:
-        dates.append(d)
-        d += timedelta(days=1)
-    return dates
+    return [today + timedelta(days=offset) for offset in range(CHECK_DAYS_AHEAD + 1)]
 
 
 TARGET_DATES = build_target_dates()

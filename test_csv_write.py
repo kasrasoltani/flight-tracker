@@ -11,7 +11,7 @@ from playwright.sync_api import sync_playwright
 
 from scraper import search_pateh, ensure_csv, append_rows, CSV_PATH
 
-ORIGIN, DEST, FLIGHT_DATE = "IST", "TBZ", date(2026, 7, 5)
+ORIGIN, DEST, FLIGHT_DATE = "TBZ", "IST", date(2026, 7, 25)
 
 ensure_csv()
 
