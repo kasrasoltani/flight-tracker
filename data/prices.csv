@@ -146559,3 +146559,598 @@ timestamp_utc,site,origin,destination,flight_date,airline,price,currency,notes
 2026-07-27T21:14:28.410129+00:00,pateh.com,IKA,ADB,2026-08-14,ایران ایرتور,49014700.0,IRT,
 2026-07-27T21:14:28.410129+00:00,pateh.com,IKA,ADB,2026-08-15,وارش,29892000.0,IRT,
 2026-07-27T21:14:28.410129+00:00,pateh.com,IKA,ADB,2026-08-16,,,,no_results
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-07-27,,,,no_results
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-07-28,آتا,24868000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-07-29,آتا,30450000.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-07-29,ایران ایرتور,34015100.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-07-29,ایران ایرتور,39900100.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-07-30,آتا,28420000.0,IRT,mismatch: 1 prices vs 2 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-07-31,آتا,24868000.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-07-31,ایران ایرتور,29049700.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-07-31,ایران ایرتور,49014700.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-01,آتا,24360000.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-01,ایران ایرتور,25014900.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-01,ایران ایرتور,45015100.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-02,آتا,26390000.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-02,ایران ایرتور,27014700.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-02,ایران ایرتور,39014600.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-03,آتا,22879000.0,IRT,mismatch: 1 prices vs 2 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-04,آتا,24868000.0,IRT,mismatch: 1 prices vs 3 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-05,آتا,21884000.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-05,ایران ایرتور,22514600.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-05,ایران ایرتور,55015200.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-06,آتا,22879000.0,IRT,mismatch: 1 prices vs 2 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-07,سپهران,17000000.0,IRT,mismatch: 4 prices vs 6 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-07,آتا,23345000.0,IRT,mismatch: 4 prices vs 6 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-07,ایران ایرتور,24514400.0,IRT,mismatch: 4 prices vs 6 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-07,ایران ایرتور,34015100.0,IRT,mismatch: 4 prices vs 6 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-08,آتا,21823000.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-08,ایران ایرتور,22015200.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-08,ایران ایرتور,32015300.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-09,آتا,23345000.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-09,ایران ایرتور,23514500.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-09,ایران ایرتور,32015300.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-10,سپهران,17000000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-10,آتا,23345000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-11,آتا,24360000.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-11,ایران ایرتور,27515200.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-11,ایران ایرتور,45900600.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-12,ایران ایرتور,22514600.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-12,آتا,24360000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-12,ایران ایرتور,39014600.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-13,آتا,20392000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-14,سپهران,20000000.0,IRT,mismatch: 4 prices vs 5 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-14,آتا,20706000.0,IRT,mismatch: 4 prices vs 5 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-14,ایران ایرتور,21514700.0,IRT,mismatch: 4 prices vs 5 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-14,ایران ایرتور,35015000.0,IRT,mismatch: 4 prices vs 5 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-15,آتا,21823000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-15,ایران ایرتور,22504700.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-15,ایران ایرتور,39014600.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-16,آتا,21823000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-16,ایران ایرتور,22504700.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,TBZ,IST,2026-08-16,ایران ایرتور,35015000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-07-27,,,,no_results
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-07-28,,,,no_results
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-07-29,کاسپین,23345000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-07-29,کاسپین,29537000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-07-30,ایران ایرتور,26914600.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-07-30,ایران ایرتور,37014800.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-07-31,کاسپین,22645000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-07-31,کاسپین,34460000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-01,,,,no_results
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-02,کاسپین,23376000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-02,کاسپین,24614000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-03,ایران ایرتور,21040600.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-03,ایران ایرتور,31015400.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-04,کاسپین,18900000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-04,کاسپین,28623000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-05,کاسپین,19894000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-05,کاسپین,34460000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-06,ایران ایرتور,21700600.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-06,ایران ایرتور,31015400.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-07,کاسپین,19082000.0,IRT,mismatch: 2 prices vs 3 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-07,کاسپین,28623000.0,IRT,mismatch: 2 prices vs 3 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-08,,,,no_results
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-09,کاسپین,22330000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-09,کاسپین,29537000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-10,ایران ایرتور,22580600.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-10,ایران ایرتور,32015300.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-11,کاسپین,20037000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-11,کاسپین,33394000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-12,کاسپین,22330000.0,IRT,mismatch: 2 prices vs 3 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-12,کاسپین,34460000.0,IRT,mismatch: 2 prices vs 3 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-13,ایران ایرتور,19885600.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-13,ایران ایرتور,29014500.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-14,کاسپین,19082000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-14,کاسپین,25761000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-15,,,,no_results
+2026-07-27T23:05:35.300658+00:00,pateh.com,OMH,IST,2026-08-16,کاسپین,20991000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-27,,,,no_results
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-28,آتا,19944000.0,IRT,mismatch: 10 prices vs 15 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-28,وارش,27405000.0,IRT,mismatch: 10 prices vs 15 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-28,تابان,28319000.0,IRT,mismatch: 10 prices vs 15 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-28,آتا,29841000.0,IRT,mismatch: 10 prices vs 15 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-28,ماهان,30029500.0,IRT,mismatch: 10 prices vs 15 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-28,وارش,32455600.0,IRT,mismatch: 10 prices vs 15 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-28,وارش,32943000.0,IRT,mismatch: 10 prices vs 15 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-28,تابان,42478000.0,IRT,mismatch: 10 prices vs 15 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-28,ایران ایرتور,46015000.0,IRT,mismatch: 10 prices vs 15 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-28,ماهان,73655500.0,IRT,mismatch: 10 prices vs 15 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,وارش,22899000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,قشم,23782000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,آتا,23853000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,سروش ایر,24000000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,ایران ایرتور,24015000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,ماهان,24040000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,تابان,24543000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,وارش,24908000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,آتا,25117000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,تابان,25487000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,وارش,27609000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,وارش,28055600.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,وارش,28055600.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,وارش,28477000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,وارش,28477000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,فلای کیش,28898000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,تابان,29039000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,کاسپین,29537000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,آتا,29841000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,آتا,30140000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,ایران ایر,31821000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,ماهان,34598400.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,ماهان,34598400.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,فلای کیش,34763000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,کاسپین,34815000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,کاسپین,35121000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,ماهان,35411700.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,تابان,39646000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,کاسپین,41319000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,ماهان,41612500.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,ماهان,42664600.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,معراج,44950500.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,معراج,44950500.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,معراج,45625000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,ایران ایرتور,46015000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,تابان,48497000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,سروش ایر,55000000.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,ماهان,73655500.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,ماهان,73655500.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-29,ماهان,75247300.0,IRT,mismatch: 40 prices vs 45 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-30,آتا,19894000.0,IRT,mismatch: 21 prices vs 26 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-30,آتا,19894000.0,IRT,mismatch: 21 prices vs 26 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-30,سروش ایر,20300000.0,IRT,mismatch: 21 prices vs 26 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-30,قشم,21214000.0,IRT,mismatch: 21 prices vs 26 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-30,آوا ایر,21315000.0,IRT,mismatch: 21 prices vs 26 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-30,تابان,21711000.0,IRT,mismatch: 21 prices vs 26 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-30,ایران ایرتور,23015100.0,IRT,mismatch: 21 prices vs 26 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-30,کاسپین,24107000.0,IRT,mismatch: 21 prices vs 26 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-30,ایران ایر,24107000.0,IRT,mismatch: 21 prices vs 26 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-30,ایران ایر,24107000.0,IRT,mismatch: 21 prices vs 26 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-30,معراج,25487000.0,IRT,mismatch: 21 prices vs 26 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-30,ماهان,32031500.0,IRT,mismatch: 21 prices vs 26 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-30,کاسپین,33714000.0,IRT,mismatch: 21 prices vs 26 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-30,تابان,35525000.0,IRT,mismatch: 21 prices vs 26 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-30,ماهان,38538000.0,IRT,mismatch: 21 prices vs 26 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-30,تابان,39646000.0,IRT,mismatch: 21 prices vs 26 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-30,ایران ایرتور,47014900.0,IRT,mismatch: 21 prices vs 26 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-30,معراج,53950500.0,IRT,mismatch: 21 prices vs 26 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-30,معراج,54760000.0,IRT,mismatch: 21 prices vs 26 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-30,معراج,63950500.0,IRT,mismatch: 21 prices vs 26 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-30,ماهان,73655500.0,IRT,mismatch: 21 prices vs 26 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-31,سروش ایر,17357000.0,IRT,mismatch: 25 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-31,آوا ایر,18067000.0,IRT,mismatch: 25 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-31,سپهران,18500000.0,IRT,mismatch: 25 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-31,وارش,19082000.0,IRT,mismatch: 25 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-31,کاسپین,19082000.0,IRT,mismatch: 25 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-31,فلای کیش,19265000.0,IRT,mismatch: 25 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-31,ایران ایرتور,19514900.0,IRT,mismatch: 25 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-31,آتا,19894000.0,IRT,mismatch: 25 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-31,قشم,20022000.0,IRT,mismatch: 25 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-31,معراج,20767000.0,IRT,mismatch: 25 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-31,تابان,20767000.0,IRT,mismatch: 25 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-31,ایران ایر,21214000.0,IRT,mismatch: 25 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-31,ایران ایر,21214000.0,IRT,mismatch: 25 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-31,آتا,21315000.0,IRT,mismatch: 25 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-31,وارش,25855600.0,IRT,mismatch: 25 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-31,وارش,26244000.0,IRT,mismatch: 25 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-31,کاسپین,28623000.0,IRT,mismatch: 25 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-31,معراج,28950500.0,IRT,mismatch: 25 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-31,معراج,29385000.0,IRT,mismatch: 25 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-31,تابان,30450000.0,IRT,mismatch: 25 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-31,ایران ایر,35760500.0,IRT,mismatch: 25 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-31,تابان,35871000.0,IRT,mismatch: 25 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-31,ایران ایرتور,48014800.0,IRT,mismatch: 25 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-31,معراج,53950500.0,IRT,mismatch: 25 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-07-31,معراج,54760000.0,IRT,mismatch: 25 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-01,آوا ایر,17052000.0,IRT,mismatch: 24 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-01,کاسپین,17357000.0,IRT,mismatch: 24 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-01,سروش ایر,17357000.0,IRT,mismatch: 24 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-01,معراج,17450500.0,IRT,mismatch: 24 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-01,معراج,17713000.0,IRT,mismatch: 24 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-01,آتا,17905000.0,IRT,mismatch: 24 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-01,آتا,18900000.0,IRT,mismatch: 24 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-01,وارش,19082000.0,IRT,mismatch: 24 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-01,ایران ایر,19285000.0,IRT,mismatch: 24 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-01,ایران ایرتور,19514900.0,IRT,mismatch: 24 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-01,قشم,19783000.0,IRT,mismatch: 24 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-01,وارش,20905600.0,IRT,mismatch: 24 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-01,ایران ایر,21214000.0,IRT,mismatch: 24 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-01,وارش,21220000.0,IRT,mismatch: 24 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-01,فلای کیش,22155000.0,IRT,mismatch: 24 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-01,کاسپین,24081000.0,IRT,mismatch: 24 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-01,ایران ایر,25928500.0,IRT,mismatch: 24 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-01,ماهان,31030500.0,IRT,mismatch: 24 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-01,ماهان,41612500.0,IRT,mismatch: 24 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-01,معراج,44950500.0,IRT,mismatch: 24 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-01,معراج,45625000.0,IRT,mismatch: 24 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-01,سروش ایر,55825000.0,IRT,mismatch: 24 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-01,ایران ایرتور,59014800.0,IRT,mismatch: 24 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-01,ماهان,68078500.0,IRT,mismatch: 24 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-02,ساها,18128000.0,IRT,mismatch: 22 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-02,وارش,18321000.0,IRT,mismatch: 22 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-02,قشم,18879000.0,IRT,mismatch: 22 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-02,آتا,18900000.0,IRT,mismatch: 22 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-02,معراج,18950500.0,IRT,mismatch: 22 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-02,معراج,19235000.0,IRT,mismatch: 22 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-02,آوا ایر,19285000.0,IRT,mismatch: 22 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-02,آتا,19894000.0,IRT,mismatch: 22 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-02,ایران ایرتور,20500500.0,IRT,mismatch: 22 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-02,کاسپین,21661000.0,IRT,mismatch: 22 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-02,وارش,23655600.0,IRT,mismatch: 22 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-02,وارش,24011000.0,IRT,mismatch: 22 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-02,ایران ایر,24107000.0,IRT,mismatch: 22 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-02,ماهان,26680000.0,IRT,mismatch: 22 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-02,کاسپین,29841000.0,IRT,mismatch: 22 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-02,ماهان,33247000.0,IRT,mismatch: 22 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-02,ماهان,36536000.0,IRT,mismatch: 22 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-02,ایران ایرتور,47014900.0,IRT,mismatch: 22 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-02,معراج,53950500.0,IRT,mismatch: 22 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-02,معراج,54760000.0,IRT,mismatch: 22 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-02,ماهان,71010000.0,IRT,mismatch: 22 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-02,ماهان,71010000.0,IRT,mismatch: 22 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-03,وارش,17357000.0,IRT,mismatch: 23 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-03,سروش ایر,17357000.0,IRT,mismatch: 23 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-03,آتا,17905000.0,IRT,mismatch: 23 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-03,سپهران,18000000.0,IRT,mismatch: 23 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-03,سروش ایر,18270000.0,IRT,mismatch: 23 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-03,آوا ایر,18270000.0,IRT,mismatch: 23 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-03,تابان,20767000.0,IRT,mismatch: 23 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-03,فلای کیش,21192000.0,IRT,mismatch: 23 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-03,آتا,21884000.0,IRT,mismatch: 23 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-03,قشم,21924000.0,IRT,mismatch: 23 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-03,ایران ایرتور,22015200.0,IRT,mismatch: 23 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-03,معراج,22280000.0,IRT,mismatch: 23 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-03,ایران ایر,24107000.0,IRT,mismatch: 23 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-03,وارش,24755600.0,IRT,mismatch: 23 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-03,وارش,25127000.0,IRT,mismatch: 23 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-03,تابان,27405000.0,IRT,mismatch: 23 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-03,ماهان,32031500.0,IRT,mismatch: 23 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-03,تابان,37758000.0,IRT,mismatch: 23 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-03,ماهان,38538000.0,IRT,mismatch: 23 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-03,معراج,54760000.0,IRT,mismatch: 23 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-03,ایران ایرتور,55019600.0,IRT,mismatch: 23 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-03,سروش ایر,55825000.0,IRT,mismatch: 23 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-03,ماهان,73655500.0,IRT,mismatch: 23 prices vs 28 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-04,آتا,18575000.0,IRT,mismatch: 24 prices vs 30 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-04,کاسپین,19082000.0,IRT,mismatch: 24 prices vs 30 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-04,ساها,19082000.0,IRT,mismatch: 24 prices vs 30 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-04,وارش,19285000.0,IRT,mismatch: 24 prices vs 30 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-04,سروش ایر,19285000.0,IRT,mismatch: 24 prices vs 30 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-04,آوا ایر,19285000.0,IRT,mismatch: 24 prices vs 30 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-04,قشم,20097000.0,IRT,mismatch: 24 prices vs 30 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-04,سروش ایر,20300000.0,IRT,mismatch: 24 prices vs 30 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-04,معراج,20450500.0,IRT,mismatch: 24 prices vs 30 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-04,معراج,20758000.0,IRT,mismatch: 24 prices vs 30 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-04,آتا,22330000.0,IRT,mismatch: 24 prices vs 30 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-04,تابان,23599000.0,IRT,mismatch: 24 prices vs 30 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-04,وارش,23655600.0,IRT,mismatch: 24 prices vs 30 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-04,وارش,24011000.0,IRT,mismatch: 24 prices vs 30 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-04,فلای کیش,24081000.0,IRT,mismatch: 24 prices vs 30 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-04,ایران ایر,26999000.0,IRT,mismatch: 24 prices vs 30 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-04,ایران ایرتور,27014700.0,IRT,mismatch: 24 prices vs 30 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-04,کاسپین,28623000.0,IRT,mismatch: 24 prices vs 30 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-04,تابان,30450000.0,IRT,mismatch: 24 prices vs 30 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-04,تابان,39646000.0,IRT,mismatch: 24 prices vs 30 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-04,معراج,49950500.0,IRT,mismatch: 24 prices vs 30 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-04,معراج,50700000.0,IRT,mismatch: 24 prices vs 30 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-04,سروش ایر,55825000.0,IRT,mismatch: 24 prices vs 30 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-04,ایران ایرتور,75015400.0,IRT,mismatch: 24 prices vs 30 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,آتا,15936000.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,آوا ایر,17255000.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,ساها,18128000.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,آتا,18270000.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,سروش ایر,18321000.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,قشم,18778000.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,وارش,19285000.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,فلای کیش,19285000.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,سروش ایر,19285000.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,معراج,19950500.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,معراج,20250000.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,کاسپین,20300000.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,تابان,21711000.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,وارش,23655600.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,وارش,24011000.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,ایران ایر,25071000.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,ایران ایرتور,26014800.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,ماهان,26680000.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,تابان,30450000.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,کاسپین,31831000.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,ماهان,38538000.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,تابان,43422000.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,ایران ایرتور,45015100.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,معراج,53950500.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,معراج,54760000.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,سروش ایر,55825000.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-05,ماهان,71010000.0,IRT,mismatch: 27 prices vs 33 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,سروش ایر,15428000.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,آتا,15733000.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,سروش ایر,16240000.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,کاسپین,17339000.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,وارش,17357000.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,ایران ایر,17357000.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,آتا,17560000.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,آوا ایر,17763000.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,قشم,18778000.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,تابان,18879000.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,معراج,18950500.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,معراج,19235000.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,ایران ایر,19285000.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,ایران ایرتور,22015200.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,ساها,22899000.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,وارش,26955600.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,وارش,27360000.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,کاسپین,28898000.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,ماهان,30029500.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,ماهان,31030500.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,ماهان,33247000.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,تابان,35871000.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,ایران ایرتور,42015400.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,سروش ایر,55825000.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,ماهان,68078500.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,معراج,68450500.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,معراج,69478000.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,ماهان,71010000.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-06,ماهان,73655500.0,IRT,mismatch: 29 prices vs 36 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,فلای کیش,16375000.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,وارش,16393000.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,آوا ایر,16646000.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,آتا,16748000.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,سروش ایر,17357000.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,سپهران,17500000.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,آتا,17661000.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,معراج,17950500.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,کاسپین,18128000.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,معراج,18220000.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,سروش ایر,18270000.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,ایران ایر,19285000.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,تابان,19729000.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,قشم,20097000.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,ساها,20991000.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,وارش,23655600.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,کاسپین,23853000.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,وارش,24011000.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,ایران ایرتور,24015000.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,ایران ایر,24107000.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,ماهان,31030500.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,تابان,41534000.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,ماهان,45044500.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,سروش ایر,50750000.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,ایران ایرتور,55030600.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,معراج,68450500.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,معراج,69478000.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,ماهان,71010000.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-07,ماهان,73655500.0,IRT,mismatch: 29 prices vs 35 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-08,فلای کیش,19265000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-08,وارش,19285000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-08,آوا ایر,19488000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-08,کاسپین,20228000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-08,ایران ایر,20250000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-08,سروش ایر,20250000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-08,سروش ایر,20300000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-08,ایران ایر,21214000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-08,قشم,23142000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-08,معراج,23599000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-08,آتا,24868000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-08,معراج,24950500.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-08,ایران ایرتور,25000600.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-08,وارش,28055600.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-08,وارش,28477000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-08,کاسپین,28898000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-08,ایران ایرتور,52014400.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-08,معراج,53950500.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-08,معراج,54760000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-08,سروش ایر,55825000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-09,وارش,21214000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-09,آوا ایر,21315000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-09,آتا,21823000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-09,کاسپین,21945000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-09,معراج,22655000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-09,ایران ایر,23142000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-09,قشم,23599000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-09,ایران ایرتور,26014800.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-09,ماهان,26680000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-09,معراج,28950500.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-09,وارش,29155600.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-09,وارش,29593000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-09,ماهان,31030500.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-09,ماهان,32031500.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-09,ایران ایرتور,45015100.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-09,معراج,53950500.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-09,معراج,54760000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-09,ماهان,71010000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-09,ماهان,71010000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-09,ماهان,73655500.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-10,سروش ایر,20250000.0,IRT,mismatch: 18 prices vs 20 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-10,سروش ایر,20300000.0,IRT,mismatch: 18 prices vs 20 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-10,وارش,21214000.0,IRT,mismatch: 18 prices vs 20 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-10,آوا ایر,22330000.0,IRT,mismatch: 18 prices vs 20 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-10,سپهران,23000000.0,IRT,mismatch: 18 prices vs 20 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-10,ایران ایر,23142000.0,IRT,mismatch: 18 prices vs 20 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-10,تابان,23505000.0,IRT,mismatch: 18 prices vs 20 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-10,معراج,23950400.0,IRT,mismatch: 18 prices vs 20 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-10,قشم,24022000.0,IRT,mismatch: 18 prices vs 20 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-10,فلای کیش,24081000.0,IRT,mismatch: 18 prices vs 20 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-10,معراج,24310000.0,IRT,mismatch: 18 prices vs 20 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-10,آتا,25984000.0,IRT,mismatch: 18 prices vs 20 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-10,وارش,37955600.0,IRT,mismatch: 18 prices vs 20 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-10,وارش,38525000.0,IRT,mismatch: 18 prices vs 20 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-10,تابان,39646000.0,IRT,mismatch: 18 prices vs 20 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-10,معراج,53950500.0,IRT,mismatch: 18 prices vs 20 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-10,معراج,54760000.0,IRT,mismatch: 18 prices vs 20 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-10,سروش ایر,55825000.0,IRT,mismatch: 18 prices vs 20 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,سروش ایر,20250000.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,سروش ایر,20300000.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,آوا ایر,21823000.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,وارش,22178000.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,کاسپین,22899000.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,تابان,23599000.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,فلای کیش,24081000.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,قشم,24712000.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,ایران ایر,25071000.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,معراج,25950500.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,معراج,26340000.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,ماهان,26680000.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,آتا,27405000.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,معراج,28950500.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,معراج,29385000.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,ایران ایرتور,32015300.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,کاسپین,38164000.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,ماهان,38538000.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,تابان,40590000.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,وارش,45655600.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,وارش,46341000.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,ایران ایرتور,50014600.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,معراج,53950500.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,معراج,53950500.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,معراج,54760000.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,معراج,54760000.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,سروش ایر,55825000.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,ماهان,71010000.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-11,ماهان,73655500.0,IRT,mismatch: 29 prices vs 32 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-12,فلای کیش,21192000.0,IRT,mismatch: 22 prices vs 27 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-12,کاسپین,22330000.0,IRT,mismatch: 22 prices vs 27 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-12,آوا ایر,22330000.0,IRT,mismatch: 22 prices vs 27 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-12,تابان,22655000.0,IRT,mismatch: 22 prices vs 27 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-12,ایران ایر,23142000.0,IRT,mismatch: 22 prices vs 27 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-12,قشم,23640000.0,IRT,mismatch: 22 prices vs 27 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-12,وارش,24107000.0,IRT,mismatch: 22 prices vs 27 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-12,آتا,26492000.0,IRT,mismatch: 22 prices vs 27 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-12,ماهان,26680000.0,IRT,mismatch: 22 prices vs 27 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-12,معراج,28950500.0,IRT,mismatch: 22 prices vs 27 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-12,معراج,29385000.0,IRT,mismatch: 22 prices vs 27 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-12,ایران ایرتور,31015400.0,IRT,mismatch: 22 prices vs 27 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-12,کاسپین,34460000.0,IRT,mismatch: 22 prices vs 27 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-12,تابان,36815000.0,IRT,mismatch: 22 prices vs 27 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-12,وارش,36855600.0,IRT,mismatch: 22 prices vs 27 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-12,وارش,37409000.0,IRT,mismatch: 22 prices vs 27 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-12,ماهان,38538000.0,IRT,mismatch: 22 prices vs 27 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-12,ایران ایرتور,42015400.0,IRT,mismatch: 22 prices vs 27 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-12,سروش ایر,48213000.0,IRT,mismatch: 22 prices vs 27 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-12,ماهان,68078500.0,IRT,mismatch: 22 prices vs 27 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-12,معراج,68450500.0,IRT,mismatch: 22 prices vs 27 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-12,معراج,69478000.0,IRT,mismatch: 22 prices vs 27 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-13,کاسپین,22155000.0,IRT,mismatch: 25 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-13,وارش,22178000.0,IRT,mismatch: 25 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-13,ایران ایر,22178000.0,IRT,mismatch: 25 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-13,تابان,22655000.0,IRT,mismatch: 25 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-13,ایران ایر,23142000.0,IRT,mismatch: 25 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-13,آوا ایر,23345000.0,IRT,mismatch: 25 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-13,قشم,23447000.0,IRT,mismatch: 25 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-13,معراج,23599000.0,IRT,mismatch: 25 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-13,ایران ایرتور,25500000.0,IRT,mismatch: 25 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-13,آتا,25883000.0,IRT,mismatch: 25 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-13,معراج,25950500.0,IRT,mismatch: 25 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-13,ماهان,26680000.0,IRT,mismatch: 25 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-13,کاسپین,28898000.0,IRT,mismatch: 25 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-13,ماهان,31030500.0,IRT,mismatch: 25 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-13,ماهان,32031500.0,IRT,mismatch: 25 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-13,سروش ایر,33749000.0,IRT,mismatch: 25 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-13,وارش,34655600.0,IRT,mismatch: 25 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-13,وارش,35176000.0,IRT,mismatch: 25 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-13,تابان,37749000.0,IRT,mismatch: 25 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-13,ایران ایرتور,41014400.0,IRT,mismatch: 25 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-13,معراج,44950500.0,IRT,mismatch: 25 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-13,معراج,45625000.0,IRT,mismatch: 25 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-13,ماهان,68078500.0,IRT,mismatch: 25 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-13,ماهان,71010000.0,IRT,mismatch: 25 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-13,ماهان,71010000.0,IRT,mismatch: 25 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,فلای کیش,20228000.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,کاسپین,20991000.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,تابان,21711000.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,وارش,22178000.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,ایران ایر,22178000.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,آوا ایر,22330000.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,سپهران,23000000.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,ایران ایر,23142000.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,قشم,23142000.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,آتا,24665000.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,ایران ایرتور,25014900.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,معراج,25950500.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,معراج,26340000.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,ماهان,26680000.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,کاسپین,28623000.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,سروش ایر,33749000.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,وارش,34655600.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,وارش,35176000.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,ماهان,36536000.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,تابان,37758000.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,ایران ایرتور,43015300.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,سروش ایر,50750000.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,معراج,53950500.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,معراج,54760000.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,ماهان,68078500.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-14,ماهان,73655500.0,IRT,mismatch: 26 prices vs 29 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-15,ایران ایر,21214000.0,IRT,mismatch: 21 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-15,فلای کیش,23118000.0,IRT,mismatch: 21 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-15,ایران ایر,23142000.0,IRT,mismatch: 21 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-15,معراج,23599000.0,IRT,mismatch: 21 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-15,قشم,23853000.0,IRT,mismatch: 21 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-15,وارش,24107000.0,IRT,mismatch: 21 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-15,آوا ایر,24360000.0,IRT,mismatch: 21 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-15,ایران ایرتور,25014900.0,IRT,mismatch: 21 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-15,معراج,25950500.0,IRT,mismatch: 21 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-15,سروش ایر,28928000.0,IRT,mismatch: 21 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-15,ماهان,30029500.0,IRT,mismatch: 21 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-15,ماهان,30029500.0,IRT,mismatch: 21 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-15,ماهان,32031500.0,IRT,mismatch: 21 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-15,وارش,34655600.0,IRT,mismatch: 21 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-15,وارش,35176000.0,IRT,mismatch: 21 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-15,ایران ایرتور,46015000.0,IRT,mismatch: 21 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-15,معراج,49950500.0,IRT,mismatch: 21 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-15,معراج,50700000.0,IRT,mismatch: 21 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-15,ماهان,68078500.0,IRT,mismatch: 21 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-15,ماهان,71010000.0,IRT,mismatch: 21 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-15,ماهان,71010000.0,IRT,mismatch: 21 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-16,کاسپین,22330000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-16,وارش,23142000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-16,ایران ایر,23142000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-16,قشم,23853000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-16,معراج,24543000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-16,معراج,24950500.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-16,ایران ایرتور,25014900.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-16,ماهان,26680000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-16,آوا ایر,28928000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-16,ماهان,30029500.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-16,ماهان,31030500.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-16,وارش,34655600.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-16,وارش,35176000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-16,کاسپین,38570000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-16,معراج,39950500.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-16,معراج,40550000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-16,ایران ایرتور,47014900.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-16,ماهان,68078500.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-16,ماهان,71010000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,IST,2026-08-16,ماهان,71010000.0,IRT,mismatch: 20 prices vs 23 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-07-27,,,,no_results
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-07-28,,,,no_results
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-07-29,ایران ایرتور,24015000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-07-30,کاسپین,20237000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-07-30,کاسپین,41511000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-07-31,ایران ایرتور,26014800.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-07-31,معراج,30349000.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-07-31,ایران ایرتور,38014700.0,IRT,mismatch: 3 prices vs 4 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-08-01,وارش,18803000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-08-02,,,,no_results
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-08-03,کاسپین,22831000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-08-03,کاسپین,36322000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-08-04,وارش,24107000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-08-05,ایران ایرتور,26608800.0,IRT,mismatch: 2 prices vs 3 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-08-05,ایران ایرتور,75072600.0,IRT,mismatch: 2 prices vs 3 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-08-06,کاسپین,30095000.0,IRT,mismatch: 2 prices vs 3 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-08-06,کاسپین,43586000.0,IRT,mismatch: 2 prices vs 3 airline names -- check manually
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-08-07,ایران ایرتور,37430600.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-08-07,معراج,37545000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-08-07,ایران ایرتور,58014900.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-08-08,وارش,28928000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-08-09,,,,no_results
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-08-10,کاسپین,35284000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-08-10,کاسپین,46698000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-08-11,وارش,33749000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-08-12,ایران ایرتور,34015100.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-08-12,ایران ایرتور,56015100.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-08-13,,,,no_results
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-08-14,ایران ایرتور,29515000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-08-14,معراج,35424000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-08-14,ایران ایرتور,49014700.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-08-15,وارش,29892000.0,IRT,
+2026-07-27T23:05:35.300658+00:00,pateh.com,IKA,ADB,2026-08-16,,,,no_results
