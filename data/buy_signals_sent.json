@@ -169,8 +169,8 @@
   "pateh.com|OMH|IST|2026-08-13": 24004600.0,
   "pateh.com|IKA|IST|2026-08-13": 19768000.0,
   "pateh.com|IKA|ADB|2026-08-13": 71555000.0,
-  "pateh.com|TBZ|IST|2026-08-14": 28420000.0,
-  "pateh.com|OMH|IST|2026-08-14": 24807000.0,
+  "pateh.com|TBZ|IST|2026-08-14": 16393000.0,
+  "pateh.com|OMH|IST|2026-08-14": 17357000.0,
   "pateh.com|IKA|ADB|2026-08-14": 43635000.0,
   "pateh.com|IKA|IST|2026-08-14": 19285000.0,
   "pateh.com|TBZ|IST|2026-08-15": 21214000.0,
@@ -242,5 +242,8 @@
   "pateh.com|TBZ|IST|2026-09-02": 32491000.0,
   "pateh.com|OMH|IST|2026-09-02": 38164000.0,
   "pateh.com|IKA|ADB|2026-09-02": 36205800.0,
-  "pateh.com|IKA|IST|2026-09-02": 32480000.0
+  "pateh.com|IKA|IST|2026-09-02": 32480000.0,
+  "pateh.com|TBZ|IST|2026-09-03": 32491000.0,
+  "pateh.com|OMH|IST|2026-09-03": 28954600.0,
+  "pateh.com|IKA|IST|2026-09-03": 26035000.0
 }
